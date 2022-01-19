@@ -1,0 +1,7 @@
+*** Using good IDE such as pycharm, screen_shot is attached ***
+1) ctrl+shift+/ : To comment code
+2) ctrl + r  to : find and replace
+3) alt + Enter: to see context action
+3) ctrl + c : to copy
+4) ctrl + a : to select all
+5) F2 :  check code issues
