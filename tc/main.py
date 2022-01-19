@@ -41,30 +41,28 @@ def diagonal_wining_line_bottom(player):
 
 
 def win_check(player):
-    flag = True
 
     for row in range(board_rows):
         if board[row][0] == player and board[row][1] == player and board[row][2] == player:
             horizontal_wining_line(row,player)
-            return flag
+            return True
 
 
     for col in range(board_cols):
         if board[0][col] == player and board[1][col] == player and board[2][col] == player:
             vertical_wining_line(col,player)
-            return flag
+            return True
 
 
     if board[0][0] == player and board[1][1] == player and board[2][2] == player:
         diagonal_wining_line_bottom(player)
-        return flag
+        return True
 
     if board[2][0] == player and board[1][1] == player and board[0][2] == player:
         diagonal_wining_line_top(player)
-        return flag
+        return True
 
-    flag = False
-    return flag
+    return False
 
 def draw_board_line(screen,line_color,line_start_position,line_end_position,line_width):
     pygame.draw.line(screen,line_color,line_start_position,line_end_position,line_width)
