@@ -2,7 +2,7 @@ import numpy as np
 from random import randint
 import pygame,sys
 from tkinter import messagebox
-
+# Global variable for the TicTacToe board and screen
 pygame.init()
 width = 700
 height = 700
@@ -20,6 +20,7 @@ cross_color = color_rgb()
 
 change_player = lambda player : 2 if player == 1 else 1
 
+# Four different angle wining lining function that draws the line on the board if the player wins the match
 def vertical_wining_line(col,player):
     position_x = col * 240 + 100
     color = circle_color if player == 1 else cross_color
@@ -40,6 +41,10 @@ def diagonal_wining_line_bottom(player):
 
 
 
+""" Function to check weather the combination is enough for the player to win, and this function will
+if the player has won the match and also returns True so the main functions knows that someone has
+won the match
+"""
 def win_check(player):
 
     for row in range(board_rows):
@@ -64,15 +69,19 @@ def win_check(player):
 
     return False
 
+# Draw board line for the initial Screen
 def draw_board_line(screen,line_color,line_start_position,line_end_position,line_width):
     pygame.draw.line(screen,line_color,line_start_position,line_end_position,line_width)
 
+# Updating the move of the player
 def marking_spot(row,col,player):
     board[row][col] = player
 
+# Checking if there is a spot available or not
 def available_spots(row,col):
     return board[row][col] == 0
 
+# Checking if the available board is full with moves
 def is_board_full():
     for row in range(board_rows):
         for col in range(board_cols):
@@ -80,6 +89,8 @@ def is_board_full():
                 return False
     return True
 
+
+# Drawing different shapes for the player, whenever the move is updated the shapes appears
 def draw_shapes():
     for row in range(board_rows):
         for col in range(board_cols):
@@ -92,6 +103,8 @@ def draw_shapes():
                                  (col * 240 + 200 - 55, row * 240 + 200 - 55), 20)
 
 
+
+# This function checks whether the moved called by player is doable or not
 def game_play(coordinate_y,coordinate_x,player):
     game_check = False
     if available_spots(coordinate_y, coordinate_x):
@@ -111,7 +124,7 @@ def win_msg(player,result):
 
 
 
-
+# This function is managing the whole game
 def game_start(player):
     flag = False
     check = False
@@ -138,7 +151,7 @@ def game_start(player):
             flag = True
             win_msg(change_player(player),0)
 
-
+# To Display the screen
 def display_screen():
     line_color = color_rgb()
     background_color = color_rgb()
@@ -149,6 +162,7 @@ def display_screen():
     draw_board_line(screen, line_color, (0,500), (700,500), line_width)
     draw_board_line(screen, line_color, (240, 0), (240, 700), line_width)
     draw_board_line(screen, line_color, (500, 0), (500, 700), line_width)
+
 
 def unit_test():
 

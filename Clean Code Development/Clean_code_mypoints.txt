@@ -1,0 +1,8 @@
+1) Consistent code, everything is done in one way
+2) self explanatory variables
+3) Unit Test with one call function
+4) Functions for every different functionality, one function for 
+each functionality
+5) Defect Driven testing, reproduced the error and correct it too
+
+

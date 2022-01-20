@@ -1,0 +1,17 @@
+General:
+1) Follow Standard Conventions
+2) Keep it Simple
+
+Naming:
+1) Choose Descriptive / Unambiguous Names
+2) Name Classes After How They Implement Their Interfaces
+
+Methods:
+1) Methods Should Do One Thing
+
+Environment
+1) Project Build Requires Only One Step
+2) Executing Tests Requires Only One Step
+
+Exception Handling
+1) Catch Specific Exceptions
