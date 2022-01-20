@@ -18,7 +18,7 @@ def color_rgb():
 circle_color = color_rgb()
 cross_color = color_rgb()
 
-changePlayer = lambda player : 2 if player == 1 else 1
+change_player = lambda player : 2 if player == 1 else 1
 
 def vertical_wining_line(col,player):
     position_x = col * 240 + 100
@@ -97,9 +97,20 @@ def game_play(coordinate_y,coordinate_x,player):
     if available_spots(coordinate_y, coordinate_x):
             marking_spot(coordinate_y, coordinate_x, player)
             game_check = win_check(player)
-            player = changePlayer(player)
 
-    return player,game_check
+
+    return change_player(player),game_check
+
+def win_msg(player,result):
+
+    if result == 1:
+        messagebox.showinfo('                                HURRAY!            ',
+                        "Player: {}  have won the Match ".format(player))
+    else:
+        messagebox.showinfo('                           MATCH DRAWN ', 'MATCH HAS BEEN DRAWN')
+
+
+
 
 def game_start(player):
     flag = False
@@ -122,12 +133,10 @@ def game_start(player):
 
         pygame.display.update()
         if flag == True and check == False:
-            winner = " won the match"
-            player = changePlayer(player)
-            messagebox.showinfo('                                HURRAY!            ', "Player: {}  have won the Match ".format(player))
+            win_msg(change_player(player),1)
         elif is_board_full():
             flag = True
-            messagebox.showinfo('                           MATCH DRAWN ','MATCH HAS BEEN DRAWN')
+            win_msg(change_player(player),0)
 
 
 def display_screen():
