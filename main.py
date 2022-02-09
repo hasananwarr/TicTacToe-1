@@ -162,6 +162,7 @@ def display_screen():
     draw_board_line(screen, line_color, (500, 0), (500, 700), line_width)
 
 
+
 if __name__ == "__main__":
     player = 1
     display_screen()

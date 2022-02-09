@@ -12,8 +12,6 @@ def test_available_spots():
     assert main.available_spots(0, 1) == 1
     assert main.available_spots(0, 0) == 1
 
-
-
 def test_is_board_full():
     # Filling some blocks of the TicTacToe board and checking if board is full or not
     for row in range(main.board_rows):
