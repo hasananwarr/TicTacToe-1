@@ -11,6 +11,7 @@ Ans) https://github.com/hasananwarr/TicTacToe-1/tree/main/Clean%20Code%20Develop
 Ans) https://github.com/hasananwarr/TicTacToe-1/tree/main/Gradle
 7) Integrate some nice Unit-Tests in your Code to be integrated into the Build
 8) Continuous Delivery: show me your pipeline using e.g. Jenkins, Travis-CI, Circle-CI, GitHub Action, GitLab CI, etc. E.g. you can also use Jenkins Pipelining or BlueOcean, etc. But at least insert more than 2 script calls as done in the lecture! (e.g. also call Ant or Gradle or something else).
+Ans) https://github.com/hasananwarr/TicTacToe-1/actions
 9) Use a good IDE and get fluent with it: e.g. IntelliJ. What are your favorite Key-Shortcuts?!
 Ans) https://github.com/hasananwarr/TicTacToe-1/tree/main/IDE_Fav_Shortcuts
 10) DSL Create a small DSL Demo example snippet in your code even if it does not contribute to your project (hence it can also be in another language).
