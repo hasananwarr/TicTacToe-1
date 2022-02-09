@@ -1,4 +1,6 @@
 import numpy as np
+import os
+os.environ['SDL_VIDEODRIVER']='windib'
 from random import randint
 import pygame,sys
 from tkinter import messagebox
