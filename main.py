@@ -10,7 +10,7 @@ board_rows = 3
 board_cols = 3
 board = np.zeros((board_rows, board_cols))
 screen = pygame.display.set_mode((700, 700))
-
+;;;
 def color_rgb():
     return (randint(0, 255),randint(0, 255),randint(0, 255))
 
