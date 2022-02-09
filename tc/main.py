@@ -166,29 +166,7 @@ def display_screen():
     draw_board_line(screen, line_color, (500, 0), (500, 700), line_width)
 
 
-def unit_test():
-
-    # checking if player 2 won the match or not, since board is empty it should return false
-    assert win_check(2) == False
-    # checking if the board spot is empty
-    assert available_spots(1,1) == 1
-
-    # Filling some blocks of the TicTacToe board and checking if board is full or not
-    for row in range(board_rows):
-        for col in range(board_cols-1):
-            board[row][col] = 1
-
-    assert is_board_full() ==  False
-
-
-
-
-
-
-
-
 if __name__ == "__main__":
     player = 1
     display_screen()
-    #unit_test()
     game_start(player)
