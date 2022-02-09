@@ -17,9 +17,11 @@ Ans) https://github.com/hasananwarr/TicTacToe-1/actions
 Ans) https://github.com/hasananwarr/TicTacToe-1/tree/main/IDE_Fav_Shortcuts
 10) DSL Create a small DSL Demo example snippet in your code even if it does not contribute to your project (hence it can also be in another language).
 11) Functional Programming: prove that you have covered all functional aspects in your code as:
-only final data structures
+*only final data structures*
+Ans) Final is not in python
 a) (mostly) side effect free functions
 b) the use of higher-order functions
 c) functions as parameters and return values
 d) use closures / anonymous functions
+Ans) anonymous function used Line: 19
 You can also do it outside of your project. Even in another language as F#, Clojure, Julia, etc. 
