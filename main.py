@@ -75,7 +75,7 @@ def draw_board_line(screen,line_color,line_start_position,line_end_position,line
 def marking_spot(row,col,player):
     board[row][col] = player
 
-# Checking if there is a spot available or not
+
 def available_spots(row,col):
     return board[row][col] == 0
 
