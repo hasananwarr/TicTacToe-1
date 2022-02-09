@@ -8,6 +8,7 @@ Ans) https://github.com/hasananwarr/TicTacToe-1/tree/main/Sonarqube_Screenshot
 5) Clean Code Development: A) at least 5 points you can show me with an explanation of why is this is clean code in your code and/or what has improved & B) >>10 points on your personal CCD cheat sheet. E.g. a PDF.
 Ans) https://github.com/hasananwarr/TicTacToe-1/tree/main/Clean%20Code%20Development
 6) Build Management with any Build System as Ant, Maven, Gradle, etc. (only Travis is perhaps not enough) Do e.g. generate Docs, call tests, etc. (it could be also disconnected from the project just to learn a build tool!)
+Ans) https://github.com/hasananwarr/TicTacToe-1/tree/main/Gradle
 7) Integrate some nice Unit-Tests in your Code to be integrated into the Build
 8) Continuous Delivery: show me your pipeline using e.g. Jenkins, Travis-CI, Circle-CI, GitHub Action, GitLab CI, etc. E.g. you can also use Jenkins Pipelining or BlueOcean, etc. But at least insert more than 2 script calls as done in the lecture! (e.g. also call Ant or Gradle or something else).
 9) Use a good IDE and get fluent with it: e.g. IntelliJ. What are your favorite Key-Shortcuts?!
