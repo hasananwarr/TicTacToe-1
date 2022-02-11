@@ -10,15 +10,18 @@ Ans) https://github.com/hasananwarr/TicTacToe-1/tree/main/Clean%20Code%20Develop
 6) Build Management with any Build System as Ant, Maven, Gradle, etc. (only Travis is perhaps not enough) Do e.g. generate Docs, call tests, etc. (it could be also disconnected from the project just to learn a build tool!)
 Ans) https://github.com/hasananwarr/TicTacToe-1/tree/main/Gradle
 7) Integrate some nice Unit-Tests in your Code to be integrated into the Build
+Ans) https://github.com/hasananwarr/TicTacToe-1/blob/main/test_.py
 8) Continuous Delivery: show me your pipeline using e.g. Jenkins, Travis-CI, Circle-CI, GitHub Action, GitLab CI, etc. E.g. you can also use Jenkins Pipelining or BlueOcean, etc. But at least insert more than 2 script calls as done in the lecture! (e.g. also call Ant or Gradle or something else).
 Ans) https://github.com/hasananwarr/TicTacToe-1/actions
 9) Use a good IDE and get fluent with it: e.g. IntelliJ. What are your favorite Key-Shortcuts?!
 Ans) https://github.com/hasananwarr/TicTacToe-1/tree/main/IDE_Fav_Shortcuts
 10) DSL Create a small DSL Demo example snippet in your code even if it does not contribute to your project (hence it can also be in another language).
 11) Functional Programming: prove that you have covered all functional aspects in your code as:
-only final data structures
+*only final data structures*
+Ans) Final is not in python
 a) (mostly) side effect free functions
 b) the use of higher-order functions
 c) functions as parameters and return values
 d) use closures / anonymous functions
+Ans) anonymous function used Line: 19
 You can also do it outside of your project. Even in another language as F#, Clojure, Julia, etc. 
