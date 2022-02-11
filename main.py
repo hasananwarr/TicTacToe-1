@@ -14,7 +14,7 @@ screen = pygame.display.set_mode((700, 700))
 
 
 def color_rgb():
-    return (randint(0,255) , randint(0,255) , randint(0,255))
+    return (randint(0, 255) , randint(0, 255) , randint(0, 255))
 
 circle_color = color_rgb()
 cross_color = color_rgb()
@@ -49,7 +49,7 @@ won the match
 def win_check(player):
 
     for row in range(board_rows):
-        if board[row][0] == player and board[row][1] == player and board[row][2] == player :
+        if board[row][0] == player and board[row][1] == player and board[row][2] == player:
             horizontal_wining_line(row,player)
             return True
 
