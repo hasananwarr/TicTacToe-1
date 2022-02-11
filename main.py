@@ -153,6 +153,28 @@ def game_start(player):
             win_msg(change_player(player),0)
 
 # To Display the screen
+
+def unit_test():
+
+        # checking if player 2 won the match or not, since board is empty it should return false
+        print("Unit test running \n")
+        assert win_check(2) == False
+        assert win_check(1) == False
+
+        # checking if the board spot is empty
+        assert available_spots(1, 1) == 1
+        assert available_spots(0, 1) == 1
+        assert available_spots(0, 0) == 1
+        # Filling some blocks of the TicTacToe board and checking if board is full or not
+        for row in range(board_rows):
+            for col in range(board_cols - 1):
+                board[row][col] = 1
+
+        assert is_board_full() == False
+
+        print("Unit test Ending \n")
+
+
 def display_screen():
     line_color = color_rgb()
     background_color = color_rgb()
@@ -169,4 +191,5 @@ def display_screen():
 if __name__ == "__main__":
     player = 1
     display_screen()
+    #unit_test()
     game_start(player)
