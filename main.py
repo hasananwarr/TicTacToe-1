@@ -1,7 +1,8 @@
 import numpy as np
 from random import randint
-import pygame,sys
+import pygame
 from tkinter import messagebox
+
 # Global variable for the TicTacToe board and screen
 pygame.init()
 width = 700
@@ -10,23 +11,25 @@ board_rows = 3
 board_cols = 3
 board = np.zeros((board_rows, board_cols))
 screen = pygame.display.set_mode((700, 700))
+
+
 def color_rgb():
-    return (randint(0, 255),randint(0, 255),randint(0, 255))
+    return (randint(0, 255) , randint(0, 255) , randint(0, 255))
 
 circle_color = color_rgb()
 cross_color = color_rgb()
 
-change_player = lambda player : 2 if player == 1 else 1
+change_player = lambda player: 2 if player == 1 else 1
 
 # Four different angle wining lining function that draws the line on the board if the player wins the match
 def vertical_wining_line(col,player):
     position_x = col * 240 + 100
     color = circle_color if player == 1 else cross_color
-    pygame.draw.line(screen,color,(position_x,15),(position_x,height-10),10)
+    pygame.draw.line(screen, color, (position_x,15), (position_x,height-10), 10)
 def horizontal_wining_line(row,player):
     position_y = row * 240 + 100
     color = circle_color if player == 1 else cross_color
-    pygame.draw.line(screen, color, (10,position_y), (width-10,position_y), 10)
+    pygame.draw.line(screen, color, (10, position_y), (width-10,position_y), 10)
 
 def diagonal_wining_line_top(player):
     color = circle_color if player == 1 else cross_color
@@ -46,7 +49,7 @@ won the match
 def win_check(player):
 
     for row in range(board_rows):
-        if board[row][0] == player and board[row][1] == player and board[row][2] == player:
+        if board[row][0] == player and board[row][1] == player and board[row][2] == player :
             horizontal_wining_line(row,player)
             return True
 
