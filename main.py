@@ -14,7 +14,7 @@ screen = pygame.display.set_mode((700, 700))
 
 
 def color_rgb():
-    return (randint(0, 255) , randint(0, 255) , randint(0, 255))
+    return (randint(0,255) , randint(0,255) , randint(0,255))
 
 circle_color = color_rgb()
 cross_color = color_rgb()
