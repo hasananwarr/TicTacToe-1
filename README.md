@@ -23,8 +23,9 @@ Ans) Final is not in python
 a) (mostly) side effect free functions
 Ans) As you can see most of the functions used in Tictactoe game are side effect free function which means function owns state is not changing
 b) the use of higher-order functions
-Ans) I could have added this in my game but it would not have made sense of forcing this into the code, but just for the concept i did it separately in python, which i learned from geeksforgeeks
+Ans) I could have added this in my game but it would not have made sense of forcing this into the code, but just for the concept i did it separately in python, which i learned from geeksforgeeks , https://github.com/hasananwarr/TicTacToe-1/tree/main/HigherOrderfunction i made a simple calculating functions using higher order function
 c) functions as parameters and return values
+Ans) It is same as higher order function i think!
 d) use closures / anonymous functions
 Ans) anonymous function used Line: 19
 You can also do it outside of your project. Even in another language as F#, Clojure, Julia, etc. 
