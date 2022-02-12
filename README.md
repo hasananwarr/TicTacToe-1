@@ -42,6 +42,8 @@ In CI-CD pipeline, i have used gitlab actions because it was so convinient becau
 
 Ans) https://github.com/hasananwarr/TicTacToe-1/tree/main/IDE_Fav_Shortcuts
 
+used Pycharm as my IDE and i have added my fav shortcuts in the list
+
 10) DSL Create a small DSL Demo example snippet in your code even if it does not contribute to your project (hence it can also be in another language).
 
 Ans) https://github.com/hasananwarr/TicTacToe-1/tree/main/DSL
