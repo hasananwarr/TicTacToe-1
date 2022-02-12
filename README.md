@@ -1,6 +1,6 @@
 # TicTacToe-1
 1) Use and understand Git!
-Ans) Yes, i have used and understood git and my whole code is available in github, i have also used its functions like push,pull,merge, rebase etc
+Ans) Yes, i have used and understood git and my whole code is available in github, i have also used its functions like push,pull,merge, rebase etc.
 2) UML at least 3 good diagrams. "good" means you can pump it up artificially as written in DDD. You have 10 million $ from me! Please export the pics. I can not install all tools to view them!
 Ans) https://github.com/hasananwarr/TicTacToe-1/blob/main/UML/TicTacToe_UML.png
 3) DDD If your domain is too small, invent other domains around and document these domains (as if you have 10 Mio € from Edlich-Investment!) Develop a clear strategic design with mappings/relationships with 5-0 Domains. It would be nice if these domains are derived from an Event-Storming (but not mandatory). 
