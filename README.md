@@ -23,13 +23,13 @@ Ans) https://github.com/hasananwarr/TicTacToe-1/tree/main/Clean%20Code%20Develop
 
 Ans) https://github.com/hasananwarr/TicTacToe-1/tree/main/Gradle
 
-In gradle build, i have learned it from youtube and each step is documented in photos, In this i have build a simple hello world function using gradle, then i created a test to validate exception error, so when i build it , it validates the code and generates the test report , which is also documented, whatever i have learned i have documented using pictures you can see
+In gradle build, i have learned it from youtube and each step is documented in photos, In this i have build a simple hello world function using gradle, then i created a test for exception error, so when i build it , it validates the code and generates the test report , which is also documented, whatever i have learned i have documented using pictures you can see
 
 7) Integrate some nice Unit-Tests in your Code to be integrated into the Build
 
 Ans) https://github.com/hasananwarr/TicTacToe-1/blob/main/test_.py
 
-I tried to used pytest for testing with CI-CD GITLAB ACTIONS, but due to dependencies and different enviroment problem, i was unable to solve this problem , so i wrote both test_.py for pytest and i have also added function in my code which is named unit test , in which i have done unit testing, if you can unit_test(), you can see it works and i have attached the screenshot and here's is the link: 
+I tried to used pytest for testing with CI-CD GITLAB ACTIONS, but due to dependencies and different enviroment problem, i was unable to solve this problem , so i wrote both test_.py for pytest and i have also added function in my code which is named unit test , in which i have done unit testing, if you can unit_test(), you can see it works and i have attached the screenshot and here's is the link: https://github.com/hasananwarr/TicTacToe-1/tree/main/unit_test
 
 8) Continuous Delivery: show me your pipeline using e.g. Jenkins, Travis-CI, Circle-CI, GitHub Action, GitLab CI, etc. E.g. you can also use Jenkins Pipelining or BlueOcean, etc. But at least insert more than 2 script calls as done in the lecture! (e.g. also call Ant or Gradle or something else).
 
